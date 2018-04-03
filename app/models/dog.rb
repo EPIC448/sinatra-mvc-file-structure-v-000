@@ -12,4 +12,7 @@ class Dog < Sinatra::Base
 
    end
 
+   def all
+   end
+
 end
