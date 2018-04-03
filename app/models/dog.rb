@@ -1,5 +1,5 @@
 
-class Dog < Sinatra::Base
+class Dog 
 
    attr_accessor  :name, :breed, :age
 
@@ -14,7 +14,7 @@ class Dog < Sinatra::Base
    end
 
    def self.all
-      @@all 
+      @@all
    end
 
 end
