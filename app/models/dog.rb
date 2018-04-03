@@ -13,7 +13,7 @@ class Dog < Sinatra::Base
    end
 
    def self.all
-      @@all
+      @@all << self
    end
 
 end
